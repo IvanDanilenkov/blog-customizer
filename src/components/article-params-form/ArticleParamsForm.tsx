@@ -77,7 +77,7 @@ export const ArticleParamsForm: FC<ArticleParamsFormProps> = ({
 						}
 					/>
 					<RadioGroup
-						title='Размер текста'
+						title='Размер шрифта'
 						name='font-size'
 						options={fontSizeOptions}
 						selected={formState.fontSizeOption}

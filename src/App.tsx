@@ -47,6 +47,8 @@ export const App: FC = () => {
 					'--font-color': articleState.fontColor.value,
 					'--container-width': articleState.contentWidth.value,
 					'--bg-color': articleState.backgroundColor.value,
+					'--image-width':
+						articleState.contentWidth.value === '1394px' ? '1600px' : '100%',
 				} as CSSProperties
 			}>
 			{isSidebarOpen && (

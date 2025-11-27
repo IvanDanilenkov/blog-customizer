@@ -14,7 +14,8 @@
 }
 
 .image {
-	width: 100%;
+	width: var(--image-width);
+	display: block;
 	height: auto;
 	margin-top: 26px;
 }
